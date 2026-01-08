@@ -9904,9 +9904,17 @@ textarea.form-control {
     padding-top: 120px;
 }
 
-.hero {
+/* .hero {
     overflow: hidden;
+} */
+
+@media (min-width: 769px) {
+    .hero {
+        overflow: hidden;
+    }
 }
+
+
 
 .p-image {
     max-width: 420px;
@@ -9959,5 +9967,50 @@ textarea.form-control {
 @media (min-width: 992px) {
     .hero-image {
         padding-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        overflow: visible;  /* allow scrolling on small screens */
+        height: auto;       /* remove fixed height if any */
+    }
+
+    .home-slider .slider-item {
+        height: auto;       /* let the content define the height */
+    }
+}
+@media (max-width: 768px) {
+    .hero .one-forth {
+        width: 100%;
+        text-align: center;
+        transform: translateY(0) !important; /* reset Scrollax translate */
+        margin-bottom: 20px;
+    }
+
+    .hero-image {
+        justify-content: center !important;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .hero-image img {
+        max-width: 280px; /* smaller image for mobile */
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .text.ftco-animate {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        padding-bottom: 40px; /* make button visible */
     }
 }
