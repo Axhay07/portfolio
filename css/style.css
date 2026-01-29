@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9874,6 +9869,9 @@ textarea.form-control {
   font-size: 14px;
 }
 
+
+
+
  /* prevents image escaping
 
 #home-section {
@@ -9901,7 +9899,7 @@ textarea.form-control {
 } */
 /* ================= HERO FIX ================= */
 #home-section {
-    padding-top: 120px;
+    padding-top: 1%;
 }
 
 /* .hero {
@@ -9917,6 +9915,7 @@ textarea.form-control {
 
 
 .p-image {
+ 
     max-width: 420px;
     width: 100%;
     border-radius: 2.5em;
